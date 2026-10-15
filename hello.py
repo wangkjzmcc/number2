@@ -19,9 +19,10 @@ def get_greeting(hour: int) -> str:
     extras = [
         "愿你今天心情愉快！",
         "今天也是元气满满的一天！",
-        "记得多喝水哦！",
         "写代码顺利，没有 bug！",
         "别忘了起来活动一下！",
+        "祝你今天好运连连！",
+        "希望你今天能学到新知识！",
     ]
     return f"{period}，{random.choice(extras)}"
 
